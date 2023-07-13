@@ -1,0 +1,17 @@
+/*Engage in solving puzzles and brain teasers that require logical thinking and problem-solving abilities. 
+Websites like Project Euler and Advent of Code offer programming puzzles to solve using Java*\
+
+public class SumOfMultiples {
+    public static void main(String[] args) {
+        int number = 1000; // The given number
+
+        int sum = 0;
+        for (int i = 1; i < number; i++) {
+            if (i % 3 == 0 || i % 5 == 0) {
+                sum += i;
+            }
+        }
+
+        System.out.println("The sum of multiples of 3 or 5 below " + number + " is: " + sum);
+    }
+}
